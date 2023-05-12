@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./login.css">
+  </head>
+  <body>
+     <section>
+       <nav class="nav">
+        <div class="nav__container">
+          <div class="div_beg">
+            <a href=index.html>
+              <img
+                class="logo"
+                src="./CUNY-175-logo.jpg"
+                alt=""
+              />
+            </a>
+        </div>
+          <ul class="nav__links">
+            <li><a href="#" class="nav__link">About</a></li>
+            <li><a href="#" class="nav__link">Academics</a></li>
+            <li><a href="#" class="nav__link">Admissions</a></li>
+            <li><a href="#" class="nav__link">Financial Aid</a></li>
+            <li><a href="#" class="nav__link">Research</a></li>
+            <li><a href="#" class="nav__link">Login</a></li>
+            <li class="sign__up">
+                <a href="logIn.html" class="nav__link sign__up--color">Mental Health</a>
+            </li>
+            <li class="sign__up">
+                <a href="#" class="nav__link sign__up--color">Apply</a>
+            </li>
+            <li class="sign__up">
+                <a href="#" class="nav__link sign__up--color">COVID Info</a>
+            </li>
+            <li class="sign__up sign_menu">
+            <i class="fas fa-bars"></i>
+              <a href="#" class="nav__link sign__up--color">Menu</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+    <div class="container">
+      <form>
+        <h1 style="text-align:center; color:black">Login Page</h1>
+        <label for="username">Student Email:</label>
+        <input type="text" id="username" name="username" placeholder="Enter your email" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <button type="button" onclick="checkLogin()">Login</button>
+        <script src="logInButton.js"></script>
+      </form>
+    </div>
+  </body>
+</html>
